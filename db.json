@@ -1,0 +1,67 @@
+{
+  "products": [],
+  "reviews": [],
+  "inventory": {
+    "coconut-oil": {
+      "stock": 30,
+      "threshold": 5
+    },
+    "moringa-vitality": {
+      "stock": 18,
+      "threshold": 10
+    },
+    "curry-leaves": {
+      "stock": 94,
+      "threshold": 20
+    },
+    "guava-leaves": {
+      "stock": 40,
+      "threshold": 10
+    },
+    "neem-powder": {
+      "stock": 60,
+      "threshold": 10
+    },
+    "betel-leaves": {
+      "stock": 30,
+      "threshold": 10
+    },
+    "mango-powder": {
+      "stock": 20,
+      "threshold": 5
+    },
+    "mint-powder": {
+      "stock": 45,
+      "threshold": 10
+    },
+    "coriander-powder": {
+      "stock": 80,
+      "threshold": 15
+    },
+    "sorrel-powder": {
+      "stock": 10,
+      "threshold": 5
+    },
+    "amla-powder": {
+      "stock": 55,
+      "threshold": 10
+    },
+    "spinach-leaves": {
+      "stock": 32,
+      "threshold": 10
+    },
+    "tomato-powder": {
+      "stock": 15,
+      "threshold": 5
+    },
+    "drumstick-powder": {
+      "stock": 25,
+      "threshold": 10
+    },
+    "fenugreek-leaves": {
+      "stock": 40,
+      "threshold": 10
+    }
+  },
+  "orders": []
+}

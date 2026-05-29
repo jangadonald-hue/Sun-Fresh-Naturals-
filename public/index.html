@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Premium solar-dried natural products. 100% pure tree leaf powders and cold-pressed coconut oils crafted through sustainable solar energy.">
+    <title>Sun Fresh Naturals | Extra Pure Solar-Dried Products</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/jpeg" href="assets/Logo.jpeg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <img src="assets/Logo-removebg-preview.png" alt="Logo" class="nav-logo-img">
+                <span><strong>Sun Fresh Naturals</strong></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#process">Our Process</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#" id="track-order-link">Track Order</a></li>
+                <li class="cart-nav">
+                    <button class="btn-cart-nav" id="open-cart">
+                        <span class="icon">🛒</span>
+                        <span id="cart-count">0</span>
+                    </button>
+                </li>
+                <li class="auth-nav">
+                    <button class="btn-secondary-sm" id="open-auth">
+                        <span class="icon">👤</span> Login
+                    </button>
+                    <div id="user-profile-nav" class="hidden">
+                        <button class="btn-profile-toggle" id="toggle-profile">
+                            <span class="user-initials">JS</span>
+                        </button>
+                    </div>
+                </li>
+                <li><a href="#shop" class="btn-primary-sm">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <img src="assets/hero_nature_sun_1776140542476.png" class="hero-bg"
+            alt="Lush green organic leaves in warm sunlight">
+        <div class="hero-content">
+            <span class="badge">100% Natural & Solar Processed</span>
+            <h1>Pure Plant Essence<br><span><strong>Processed with Solar Energy.</strong></span></h1>
+            <p>We utilise advanced AI driven intelligent solar drying systems for optimal dehydration and preservation
+                of agricultural products. Our core focus is on creating a balanced ecosystem that deeply benefits both
+                the customer and the farmer.</p>
+            <div class="hero-buttons">
+                <a href="#shop" class="btn-primary">Explore Products</a>
+                <a href="#process" class="btn-secondary">Discover Our Process</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-title">
+                <h2>The Solar Advantage</h2>
+                <p>Why solar drying makes our products fundamentally better than standard market alternatives.</p>
+            </div>
+
+            <div class="process-grid">
+                <div class="process-card">
+                    <div class="icon">☀️</div>
+                    <h3>Gentle Solar Drying</h3>
+                    <p>Unlike rapid machine heating which destroys vital nutrients, our solar dryers slowly extract
+                        moisture, preserving the rich essence of coconuts and tree leaves.</p>
+                </div>
+                <div class="process-card">
+                    <div class="icon">🥥</div>
+                    <h3>Superior Extraction</h3>
+                    <p>Our finely solar-dried coconuts yield a significantly purer, more aromatic, and nutritionally
+                        dense coconut oil compared to raw extraction methods.</p>
+                </div>
+                <div class="process-card">
+                    <div class="icon">🌿</div>
+                    <h3>100% Plant Based</h3>
+                    <p>Every powder we mill comes directly from naturally sourced tree leaves. No additives, no chemical
+                        processing. Just the tree, the sun, and you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Solar Section -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <div class="section-title">
+                <h2>The Solar-Dried Advantage</h2>
+                <p>Establishing the standard for pure, naturally processed botanical products.</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🌿</div>
+                    <h3>Nutrient Retention</h3>
+                    <p>Slow drying preserves 100% of natural enzymes and vitamins often lost in high-heat industrial
+                        machines.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">☀️</div>
+                    <h3>Zero Emission</h3>
+                    <p>Powered entirely by the sun. Your purchase supports a carbon-neutral and eco-friendly
+                        manufacturing cycle.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🧪</div>
+                    <h3>No Preservatives</h3>
+                    <p>The natural drying process ensures a long shelf life without adding a single chemical or
+                        synthetic additive.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="shop">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our <span class="gradient-text">Original Series</span></h2>
+                <p>Expertly processed botanical powders and oils created through controlled solar energy.</p>
+            </div>
+            <div id="category-selection" class="category-selection">
+                <div class="category-card" data-category="leaves">
+                    <div class="cat-icon">🌿</div>
+                    <h3>Botanical Leaves</h3>
+                    <p>Pure, sun-dried whole leaves preserved in their natural state.</p>
+                    <button class="btn-primary">Explore Leaves</button>
+                </div>
+                <div class="category-card" data-category="powder">
+                    <div class="cat-icon">🧪</div>
+                    <h3>Natural Powders</h3>
+                    <p>Finely milled plant essences and solar-dried botanical powders.</p>
+                    <button class="btn-primary">Explore Powders</button>
+                </div>
+            </div>
+
+            <div id="product-view" class="hidden">
+                <div class="view-header">
+                    <button id="back-to-categories" class="btn-secondary">← Back to Categories</button>
+                    <h2 id="current-category-title" class="gradient-text">Our Products</h2>
+                </div>
+                <div class="product-grid" id="product-grid">
+                    <!-- Product 1 -->
+                    <div class="product-card" data-category="powder" data-product-id="coconut-oil">
+                        <div class="img-wrapper">
+                            <img src="assets/coconut_oil_v3.png" alt="Premium Solar-Dried Coconut Oil">
+                            <div class="tag">Best Seller</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Extra Pure Solar-Dried Coconut Oil</h3>
+                            <p>Cold-pressed from coconuts slowly dried in our solar chambers to retain maximum lauric
+                                acid and aroma.</p>
+                            <div class="price-row">
+                                <span class="price">₹450</span>
+                                <div class="action-btns">
+                                    <button class="btn-cart add-to-cart">Add to Cart</button>
+                                    <button class="btn-buy buy-now">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="product-card" data-category="powder" data-product-id="moringa-vitality">
+                        <div class="img-wrapper">
+                            <img src="assets/moringa_powder_v3.png" alt="Vitality Tree Leaf Powder">
+                            <div class="tag">Organic</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Moringa & Botanical Vitality Powder</h3>
+                            <p>A fine, vibrant green powder made from 100% natural tree leaves. Solar-dried to lock in
+                                chlorophyll and vitamins.</p>
+                            <div class="price-row">
+                                <span class="price">₹320</span>
+                                <div class="action-btns">
+                                    <button class="btn-cart add-to-cart">Add to Cart</button>
+                                    <button class="btn-buy buy-now">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 3: Curry Leaves -->
+                    <div class="product-card" data-category="powder" data-product-id="curry-leaves">
+                        <div class="img-wrapper">
+                            <img src="assets/curry_leaves_powder_v3.png" alt="Extra Pure Curry Leaves Powder">
+                            <div class="tag">Culinary Grade</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Extra Pure Curry Leaves Powder</h3>
+                            <p>Meticulously processed from premium garden-fresh leaves. Solar-dried to preserve natural
+                                essential oils and antioxidants.</p>
+                            <div class="price-row">
+                                <span class="price">₹180</span>
+                                <div class="action-btns">
+                                    <button class="btn-cart add-to-cart">Add to Cart</button>
+                                    <button class="btn-buy buy-now">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 4: Guava Leaves -->
+                    <div class="product-card" data-category="powder" data-product-id="guava-leaves">
+                        <div class="img-wrapper">
+                            <img src="assets/guava_powder_v3.png" alt="Solar-Dried Guava Leaves Powder">
+                            <div class="tag">Health Plus</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Solar-Dried Guava Leaves Powder</h3>
+                            <p>A high-purity botanical powder utilized for various wellness benefits. Prepared using
+                                controlled solar energy for maximum efficacy.</p>
+                            <div class="price-row">
+                                <span class="price">₹220</span>
+                                <div class="action-btns">
+                                    <button class="btn-cart add-to-cart">Add to Cart</button>
+                                    <button class="btn-buy buy-now">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 5: Neem Powder -->
+                    <div class="product-card" data-category="powder" data-product-id="neem-powder">
+                        <div class="img-wrapper">
+                            <img src="assets/neem_powder_v3.png" alt="Neem Leaf Vitality Powder">
+                            <div class="tag">Wellness</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Neem Leaf Vitality Powder</h3>
+                            <p>A premium bitter-clean wellness supplement. Our solar-drying process ensures the
+                                retention of natural medicinal alkaloids.</p>
+                            <div class="price-row">
+                                <span class="price">₹150</span>
+                                <div class="action-btns">
+                                    <button class="btn-cart add-to-cart">Add to Cart</button>
+                                    <button class="btn-buy buy-now">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 6: Betel Leaves -->
+                    <div class="product-card" data-category="powder" data-product-id="betel-leaves">
+                        <div class="img-wrapper">
+                            <img src="assets/betel_powder_v3.png" alt="Organic Betel Leaves Powder">
+                            <div class="tag">Digestive Aid</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Organic Betel Leaves Powder</h3>
+                            <p>100% natural, iron-rich formula. Solar-dried to support digestion and oral health
+                                perfectly.</p>
+                            <div class="price-row">
+                                <span class="price">₹190</span>
+                                <div class="action-btns">
+                                    <button class="btn-cart add-to-cart">Add to Cart</button>
+                                    <button class="btn-buy buy-now">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 7: Mango Powder -->
+                    <div class="product-card" data-category="powder" data-product-id="mango-powder">
+                        <div class="img-wrapper">
+                            <img src="assets/mango_powder_v3.png" alt="Organic Mango Powder">
+                            <div class="tag">Immunity Boost</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Organic Mango Powder</h3>
+                            <p>Rich, golden mango powder naturally dried to retain vitamins, flavor, and
+                                immunity-boosting properties.</p>
+                            <div class="price-row">
+                                <span class="price">₹250</span>
+                                <div class="action-btns">
+                                    <button class="btn-cart add-to-cart">Add to Cart</button>
+                                    <button class="btn-buy buy-now">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 8: Mint Powder -->
+                    <div class="product-card" data-category="powder" data-product-id="mint-powder">
+                        <div class="img-wrapper">
+                            <img src="assets/mint_powder_v3.png" alt="Organic Mint Powder">
+                            <div class="tag">Freshness</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Organic Mint Leaves & Powder</h3>
+                            <p>Vibrant, refreshing mint processed under natural sunlight for maximum aroma and digestive
+                                support.</p>
+                            <div class="price-row">
+                                <span class="price">₹160</span>
+                                <div class="action-btns">
+                                    <button class="btn-cart add-to-cart">Add to Cart</button>
+                                    <button class="btn-buy buy-now">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 9: Coriander -->
+                    <div class="product-card" data-category="powder" data-product-id="coriander-powder">
+                        <div class="img-wrapper">
+                            <img src="assets/coriander_powder_v3.png" alt="Organic Coriander Powder">
+                            <div class="tag">Culinary</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Organic Coriander Powder</h3>
+                            <p>A staple culinary botanical, solar-dried to perfection to preserve its distinct, pure
+                                flavor profile.</p>
+                            <div class="price-row">
+                                <span class="price">₹140</span>
+                                <div class="action-btns">
+                                    <button class="btn-cart add-to-cart">Add to Cart</button>
+                                    <button class="btn-buy buy-now">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 10: Sorrel -->
+                    <div class="product-card" data-category="powder" data-product-id="sorrel-powder">
+                        <div class="img-wrapper">
+                            <img src="assets/sorrel_powder_v3.png" alt="Organic Sorrel Powder">
+                            <div class="tag">Antioxidant</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Organic Sorrel Leaves Powder</h3>
+                            <p>A nutrient-dense leaf powder processed naturally to ensure maximum retention of natural
+                                acids and flavor.</p>
+                            <div class="price-row">
+                                <span class="price">₹170</span>
+                                <div class="action-btns">
+                                    <button class="btn-cart add-to-cart">Add to Cart</button>
+                                    <button class="btn-buy buy-now">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 11: Amla -->
+                    <div class="product-card" data-category="powder" data-product-id="amla-powder">
+                        <div class="img-wrapper">
+                            <img src="assets/amla_powder_v3.png" alt="Organic Amla Powder">
+                            <div class="tag">Vitamin C</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Pure Amla Powder</h3>
+                            <p>Concentrated Vitamin C and antioxidants. Carefully dried under the sun to maintain
+                                potency.</p>
+                            <div class="price-row">
+                                <span class="price">₹210</span>
+                                <div class="action-btns">
+                                    <button class="btn-cart add-to-cart">Add to Cart</button>
+                                    <button class="btn-buy buy-now">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 12: Spinach -->
+                    <div class="product-card" data-category="leaves" data-product-id="spinach-leaves">
+                        <div class="img-wrapper">
+                            <img src="assets/spinach_leaves_v3.png" alt="Spinach Leaves Powder">
+                            <div class="tag">Iron Rich</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Organic Spinach Leaves</h3>
+                            <p>An exceptional source of iron and essential vitamins, captured efficiently through solar
+                                extraction.</p>
+                            <div class="price-row">
+                                <span class="price">₹150</span>
+                                <div class="action-btns">
+                                    <button class="btn-cart add-to-cart">Add to Cart</button>
+                                    <button class="btn-buy buy-now">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 13: Tomato -->
+                    <div class="product-card" data-category="powder" data-product-id="tomato-powder">
+                        <div class="img-wrapper">
+                            <img src="assets/tomato_powder_v3.png" alt="Tomato Powder">
+                            <div class="tag">Essential</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Pure Tomato Powder</h3>
+                            <p>Vibrant color and rich taste preserved via gentle solar drying. Ideal for culinary and
+                                health uses.</p>
+                            <div class="price-row">
+                                <span class="price">₹280</span>
+                                <div class="action-btns">
+                                    <button class="btn-cart add-to-cart">Add to Cart</button>
+                                    <button class="btn-buy buy-now">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 14: Drumstick -->
+                    <div class="product-card" data-category="powder" data-product-id="drumstick-powder">
+                        <div class="img-wrapper">
+                            <img src="assets/drumstick_powder_v3.png" alt="Drumstick Leaf Powder">
+                            <div class="tag">Superfood</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Drumstick Leaf Powder</h3>
+                            <p>A renowned superfood naturally dehydrated. Unparalleled nutritional density and purity.
+                            </p>
+                            <div class="price-row">
+                                <span class="price">₹190</span>
+                                <div class="action-btns">
+                                    <button class="btn-cart add-to-cart">Add to Cart</button>
+                                    <button class="btn-buy buy-now">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 15: Fenugreek -->
+                    <div class="product-card" data-category="leaves" data-product-id="fenugreek-leaves">
+                        <div class="img-wrapper">
+                            <img src="assets/fenugreek_leaves_v3.png" alt="Fenugreek Powder">
+                            <div class="tag">Herbal</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Menthi / Fenugreek Leaves</h3>
+                            <p>A classic herbal staple prepared under the sun. Known for exceptional health balancing
+                                properties.</p>
+                            <div class="price-row">
+                                <span class="price">₹170</span>
+                                <div class="action-btns">
+                                    <button class="btn-cart add-to-cart">Add to Cart</button>
+                                    <button class="btn-buy buy-now">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section class="feedback" id="feedback">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Community Feedback</h2>
+                <p>What our faculty and students say about Sun Fresh Naturals.</p>
+            </div>
+
+            <div class="feedback-grid">
+                <!-- Review 1 -->
+                <div class="feedback-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"The solar-dried coconut oil has a unique aroma that industrial-processed oils cannot match.
+                        Excellent quality and highly consistent."</p>
+                    <div class="user-info">
+                        <strong>MR. Sai Rohit</strong>
+                        <span>Managing Director, Ramachandra College of Engineering</span>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="feedback-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Very impressed with the purity of the Moringa powder. We utilize it daily. An excellent
+                        professional initiative for the campus community."</p>
+                    <div class="user-info">
+                        <strong>Mr Chakradhar</strong>
+                        <span>Associate Professor, IoT Department</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review Form -->
+            <div class="review-form-container">
+                <h3>Share Your Experience</h3>
+                <form id="feedback-form">
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Your Name</label>
+                            <input type="text" id="review-name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Designation / Dept</label>
+                            <input type="text" id="review-dept" placeholder="e.g. EEE Faculty" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label>Your Message</label>
+                        <textarea id="review-message" placeholder="How was your experience with our products?" rows="4"
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Submit Review</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>Got Questions?</h2>
+                <p>Everything you need to know about our products and campus delivery.</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>How do I pay for my order?</h4>
+                    <p>We currently accept PhonePe, Google Pay, or Cash on Delivery for faculty orders.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>When will it be delivered?</h4>
+                    <p>Most campus orders are delivered within 24-48 hours directly to your department office.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Are these products organic?</h4>
+                    <p>Yes! We use zero chemicals and source our raw materials directly from trusted local farms.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Can I order in bulk?</h4>
+                    <p>Absolutely. For department-wide bulk orders, please use the WhatsApp chat for special pricing.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="assets/Logo-removebg-preview.png" alt="Sun Fresh Naturals Logo" class="footer-logo-img">
+                <h3><span class="gradient-text">Sun Fresh Naturals</span></h3>
+                <p>Purity captured through the power of the sun.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>📍 Ramachandra College of Engineering</p>
+                <p>📞 +91 9542137161</p>
+                <p>📧 janardhanrao1609@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Sun Fresh Naturals. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Order Tracker Modal -->
+    <div id="tracker-modal" class="modal">
+        <div class="modal-content tracker-container">
+            <button id="close-tracker-x" class="close-x">&times;</button>
+            <div class="tracker-header">
+                <h2>Track Your Order</h2>
+                <p>Enter your mobile number to check the status.</p>
+            </div>
+
+            <div class="tracker-input-box">
+                <input type="text" id="track-mobile" placeholder="Enter Mobile Number">
+                <button id="btn-track-submit" class="btn-primary">Track</button>
+            </div>
+
+            <div id="tracker-results" class="hidden">
+                <div class="status-summary">
+                    <p>Order Status for: <strong id="res-mobile"></strong></p>
+                </div>
+
+                <div class="status-steps">
+                    <div class="step active" id="step-1">
+                        <div class="step-icon">📝</div>
+                        <span>Order Placed</span>
+                    </div>
+                    <div class="step" id="step-2">
+                        <div class="step-icon">☀️</div>
+                        <span>Drying under Sun</span>
+                    </div>
+                    <div class="step" id="step-3">
+                        <div class="step-icon">🔍</div>
+                        <span>Quality Check</span>
+                    </div>
+                    <div class="step" id="step-4">
+                        <div class="step-icon">🚚</div>
+                        <span>Out for Delivery</span>
+                    </div>
+                </div>
+
+                <div class="status-footer">
+                    <p id="status-desc">We have received your order and are preparing the batch.</p>
+                </div>
+            </div>
+
+            <div id="tracker-loading" class="hidden">
+                <div class="loader"></div>
+                <p>Connecting to campus server...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/919542137161?text=Hello%20Sun%20Fresh%20Naturals!%20I%20have%20a%20question%20about%20your%20products."
+        class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Chat">
+        <span>Chat with Us</span>
+    </a>
+
+    <!-- Cart Sidebar -->
+    <div id="cart-sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <h3>Your Shopping Cart</h3>
+            <button id="close-cart" class="close-x">&times;</button>
+        </div>
+        <div id="cart-items-container" class="sidebar-content">
+            <!-- Items injected here -->
+            <p class="empty-msg">Your cart is empty.</p>
+        </div>
+        <div class="sidebar-footer">
+            <div class="total-row">
+                <span>Grand Total:</span>
+                <span id="cart-total">₹0</span>
+            </div>
+            <button id="cart-checkout-btn" class="btn-primary w-100">Proceed to Faculty Order</button>
+        </div>
+    </div>
+
+    <!-- Order Form Modal -->
+    <div id="order-modal" class="modal">
+        <div class="modal-content order-form-container">
+            <button id="close-modal-x" class="close-x">&times;</button>
+            <h2>Complete Your Order</h2>
+            <p class="subtitle">For College Faculty & Departments</p>
+
+            <form id="checkout-form">
+                <div class="product-summary" id="order-summary-box">
+                    <!-- Product info injected here -->
+                </div>
+
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <input type="text" id="faculty-name" placeholder="Prof. Name" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Department</label>
+                    <select id="faculty-dept" required>
+                        <option value="" disabled selected>Select Department</option>
+                        <option value="Artificial Intelligence & Data Science">Artificial Intelligence & Data Science
+                            (AI & DS)</option>
+                        <option value="Artificial Intelligence & Machine Learning">Artificial Intelligence & Machine
+                            Learning (AI & ML)</option>
+                        <option value="Cyber Security">Cyber Security</option>
+                        <option value="Internet of Things (IoT)">Internet of Things (IoT)</option>
+                        <option value="Electronics & Communication Engineering">Electronics & Communication Engineering
+                            (ECE)</option>
+                        <option value="Electrical & Electronics Engineering">Electrical & Electronics Engineering (EEE)
+                        </option>
+                        <option value="Mechanical Engineering">Mechanical Engineering</option>
+                        <option value="Civil Engineering">Civil Engineering</option>
+                        <option value="Bachelor of Business Administration">Bachelor of Business Administration (BBA)
+                        </option>
+                        <option value="Master of Business Administration">Master of Business Administration (MBA)
+                        </option>
+                        <option value="Master of Technology">Master of Technology (M.Tech)</option>
+                        <option value="Other">Other (Specify below)</option>
+                    </select>
+                </div>
+
+                <div class="input-group hidden" id="other-dept-group">
+                    <label>Specify Department</label>
+                    <input type="text" id="faculty-dept-other" placeholder="Enter Department Name">
+                </div>
+
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Mobile Number</label>
+                        <input type="tel" id="faculty-mobile" placeholder="+91 00000 00000" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Email Address</label>
+                        <input type="email" id="faculty-email" placeholder="faculty@college.edu" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-primary w-100">Confirm & Send Order</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Final Success Modal -->
+    <div id="success-modal" class="modal">
+        <div class="modal-content">
+            <div class="success-icon">✨</div>
+            <h2>Order Sent!</h2>
+            <p>Your order details have been forwarded to <strong>Sun Fresh Naturals</strong>. We will contact your
+                department shortly.</p>
+            <button id="close-success" class="btn-primary">Back to Home</button>
+        </div>
+    </div>
+
+    <!-- Product Detail Modal -->
+    <div id="product-modal" class="product-modal">
+        <div class="modal-content-wrapper">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="modal-left">
+                    <div class="modal-img-container">
+                        <img id="modal-img" src="" alt="">
+                    </div>
+
+                    <div id="modal-wellness-section" class="modal-wellness">
+                        <div class="wellness-card">
+                            <h4>🌿 Health Benefits</h4>
+                            <p id="modal-benefits-text"></p>
+                        </div>
+                        <div class="wellness-card">
+                            <h4>👥 Ideal For</h4>
+                            <p id="modal-users-text"></p>
+                        </div>
+                        <div class="wellness-card">
+                            <h4>⭐ Key Advantages</h4>
+                            <p id="modal-advantages-text"></p>
+                        </div>
+                    </div>
+
+                    <div class="modal-actions-desktop">
+                        <button class="btn-cart add-to-cart">Add to Cart</button>
+                        <button class="btn-buy buy-now">Buy Now</button>
+                    </div>
+                </div>
+                <div class="modal-right">
+                    <div class="modal-header">
+                        <span id="modal-tag" class="tag"></span>
+                        <h2 id="modal-title"></h2>
+                        <div class="modal-rating">⭐⭐⭐⭐⭐ <span id="modal-reviews-count">(48 Reviews)</span></div>
+                    </div>
+
+                    <div class="modal-price-section">
+                        <span id="modal-price" class="price"></span>
+                        <span class="original-price">₹499</span>
+                        <span class="discount-percent">35% OFF</span>
+                    </div>
+
+                    <div class="modal-selection-section">
+                        <div class="selection-group">
+                            <h4 class="selection-title">Selected Pack of: <span id="selected-pack-label">1</span></h4>
+                            <div class="selection-options" id="pack-options">
+                                <button class="selection-btn active" data-pack="1">1</button>
+                                <button class="selection-btn" data-pack="2">2</button>
+                                <button class="selection-btn" data-pack="3">3</button>
+                            </div>
+                        </div>
+                        <div class="selection-group">
+                            <h4 class="selection-title">Selected Quantity: <span id="selected-qty-label">100 g</span>
+                            </h4>
+                            <div class="selection-options" id="qty-options">
+                                <button class="selection-btn active" data-qty="100">100 g</button>
+                                <button class="selection-btn" data-qty="150">150 g</button>
+                                <button class="selection-btn" data-qty="200">200 g</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="modal-usage-section" class="modal-usage">
+                        <div class="usage-header">
+                            <span class="icon">📝</span>
+                            <h4>Directions for Use</h4>
+                        </div>
+                        <div class="usage-grid">
+                            <div class="usage-item">
+                                <span class="label">Preparation:</span>
+                                <p id="modal-prep-text"></p>
+                            </div>
+                            <div class="usage-item">
+                                <span class="label">Daily Intake:</span>
+                                <p id="modal-dosage-text"></p>
+                            </div>
+                            <div class="usage-item highlight">
+                                <span class="label">Taste Tip:</span>
+                                <p id="modal-taste-text"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-offers">
+                        <h4>Available Offers</h4>
+                        <ul>
+                            <li>Bank Offer: 5% Cashback on Flipkart Axis Bank Card</li>
+                            <li>Special Price: Get extra 10% off (price inclusive of cashback/coupon)</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-highlights">
+                        <h4>Product Highlights</h4>
+                        <ul id="modal-highlights-list">
+                            <!-- Injected by JS -->
+                        </ul>
+                    </div>
+
+                    <div class="modal-description">
+                        <h4>Product Description</h4>
+                        <p id="modal-description-text"></p>
+                    </div>
+
+                    <div class="modal-specs">
+                        <h4>Specifications</h4>
+                        <div id="modal-specs-grid" class="specs-grid">
+                            <!-- Injected by JS -->
+                        </div>
+                    </div>
+
+                    <div class="modal-reviews-section">
+                        <h4>Customer Reviews</h4>
+                        <div id="modal-reviews-list" class="reviews-list">
+                            <!-- Injected by JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-actions-mobile">
+                <button class="btn-cart add-to-cart">Add to Cart</button>
+                <button class="btn-buy buy-now">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Auth Modal (Login/Signup) -->
+    <div id="auth-modal" class="modal">
+        <div class="modal-content auth-container">
+            <button id="close-auth-x" class="close-x">&times;</button>
+            <div class="auth-tabs">
+                <button class="auth-tab active" data-target="login-form">Login</button>
+                <button class="auth-tab" data-target="signup-form">Sign Up</button>
+            </div>
+
+            <!-- Login Form -->
+            <form id="login-form" class="auth-form">
+                <h3>Login</h3>
+                <p>Enter your details to receive an OTP</p>
+                
+                <div class="input-group">
+                    <label>Mobile Number <span class="required">*</span></label>
+                    <div class="phone-input">
+                        <span class="country-code">+91</span>
+                        <input type="tel" id="login-mobile" placeholder="10-digit number" pattern="[0-9]{10}" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>Email Address (Optional)</label>
+                    <input type="email" id="login-email" placeholder="email@example.com">
+                </div>
+
+                <button type="submit" class="btn-primary w-100">Get OTP</button>
+                <p class="terms-text">By continuing, you agree to Sun Fresh's <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
+            </form>
+
+            <!-- OTP Verification Screen -->
+            <div id="otp-screen" class="auth-form hidden">
+                <h3>Verify OTP</h3>
+                <p>Sent to your mobile number and server console</p>
+                <div class="otp-inputs">
+                    <input type="text" maxlength="1" class="otp-digit" required>
+                    <input type="text" maxlength="1" class="otp-digit" required>
+                    <input type="text" maxlength="1" class="otp-digit" required>
+                    <input type="text" maxlength="1" class="otp-digit" required>
+                    <input type="text" maxlength="1" class="otp-digit" required>
+                    <input type="text" maxlength="1" class="otp-digit" required>
+                </div>
+                <button id="verify-otp-btn" class="btn-primary w-100">Verify & Continue</button>
+                <div class="otp-footer">
+                    <p>Resend OTP in <span id="timer-sec">30</span>s</p>
+                    <button id="back-to-login" class="btn-link">Change Mobile Number</button>
+                </div>
+            </div>
+
+            <!-- Signup Form -->
+            <form id="signup-form" class="auth-form hidden">
+                <h3>Create Account</h3>
+                <p>Join the Sun Fresh community</p>
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <input type="text" id="signup-name" placeholder="John Doe" required>
+                </div>
+                <div class="input-group">
+                    <label>Email Address</label>
+                    <input type="email" id="signup-email" placeholder="email@example.com" required>
+                </div>
+                <div class="input-group">
+                    <label>Create Password</label>
+                    <input type="password" id="signup-password" placeholder="••••••••" required>
+                </div>
+                <button type="submit" class="btn-primary w-100">Create Account</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Customer Profile Sidebar -->
+    <div id="profile-sidebar" class="sidebar profile-sidebar">
+        <div class="sidebar-header profile-main-header">
+            <div class="user-greeting-card">
+                <div class="profile-avatar-sm" id="profile-avatar-header">JD</div>
+                <div class="greeting-text">
+                    <span class="hello">Hello,</span>
+                    <h3 id="profile-name-display">John Doe</h3>
+                </div>
+            </div>
+            <button id="close-profile" class="close-x">&times;</button>
+        </div>
+
+        <div class="sidebar-content profile-menu-container">
+            <!-- Admin Dashboard Section (Visible only to Admin) -->
+            <div class="menu-section hidden" id="admin-link-section">
+                <a href="admin.html" style="display: flex; align-items: center; padding: 15px 20px; background: #fdf2f2; color: #d32f2f; text-decoration: none; font-weight: 600; border-radius: 8px; margin: 10px;">
+                    <span class="icon">🛠️</span>
+                    <h4 style="margin-left: 15px;">ADMIN DASHBOARD</h4>
+                    <span class="arrow" style="margin-left: auto;">›</span>
+                </a>
+            </div>
+
+            <!-- My Orders Section -->
+            <div class="menu-section">
+                <div class="menu-header active">
+                    <span class="icon">📦</span>
+                    <h4>MY ORDERS</h4>
+                    <span class="arrow">›</span>
+                </div>
+            </div>
+
+            <!-- Account Settings -->
+            <div class="menu-section">
+                <div class="menu-header">
+                    <span class="icon">👤</span>
+                    <h4>ACCOUNT SETTINGS</h4>
+                </div>
+                <ul class="menu-links">
+                    <li class="active"><a href="#">Profile Information</a></li>
+                    <li><a href="#">Manage Addresses</a></li>
+                    <li><a href="#">PAN Card Information</a></li>
+                </ul>
+            </div>
+
+            <!-- Payments -->
+            <div class="menu-section">
+                <div class="menu-header">
+                    <span class="icon">💳</span>
+                    <h4>PAYMENTS</h4>
+                </div>
+                <ul class="menu-links">
+                    <li><a href="#">Gift Cards <span class="price-val">₹0</span></a></li>
+                    <li><a href="#">Saved UPI</a></li>
+                    <li><a href="#">Saved Cards</a></li>
+                </ul>
+            </div>
+
+            <!-- My Stuff -->
+            <div class="menu-section">
+                <div class="menu-header">
+                    <span class="icon">📂</span>
+                    <h4>MY STUFF</h4>
+                </div>
+                <ul class="menu-links">
+                    <li><a href="#">My Coupons</a></li>
+                    <li><a href="#">My Reviews & Ratings</a></li>
+                    <li><a href="#">All Notifications</a></li>
+                    <li><a href="#">My Wishlist</a></li>
+                </ul>
+            </div>
+
+            <!-- Logout -->
+            <div class="menu-section logout-section">
+                <button id="logout-btn" class="logout-link">
+                    <span class="icon">🔒</span> Logout
+                </button>
+            </div>
+
+            <!-- Frequently Visited -->
+            <div class="frequent-section">
+                <p>Frequently Visited:</p>
+                <div class="frequent-links">
+                    <a href="#">Track Order</a>
+                    <a href="#">Help Center</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js?v=1.1"></script>
+</body>
+
+</html>
